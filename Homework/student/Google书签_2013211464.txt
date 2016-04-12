@@ -1,0 +1,16 @@
+http://i.cnblogs.com/EditPosts.aspx
+http://www.shangxueba.com/jingyan/1633962.html
+http://bujingyun23.blog.163.com/blog/static/18131024320132324722419/
+http://www.linuxdiyf.com/linux/13250.html
+http://edu.51cto.com/course/course_id-267.html
+http://www.izhixue.cc/Course/MyCourseList
+http://www.attop.com/wk/index.htm?id=7
+http://www.jb51.net/os/Ubuntu/188726.html
+http://jingyan.baidu.com/article/d71306350fe53b13fdf475fd.html
+
+这是一个神奇的网站
+sudo ap-hotspot start
+sudo ap-hotspot stop
+sudo ap-hotspot configure
+
+sudo /etc/init.d/vboxdrv setup 

@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+}
+body{
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+input{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 1px;
+    border: 1px solid grey;
+    margin: 2px 0 0 2px;
+    -webkit-box-shadow: 0 1px 1px #ccc; 
+    -moz-box-shadow: 0 1px 1px #ccc; 
+    box-shadow: 0 1px 1px #ccc;      
+}
+#background{
+    width: 1335px;
+    margin: 0 auto;
+    background: #add0cb;
+}
+#main{
+    width: 982px;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#school_left{
+    width: 200px;
+    height: 1000px;
+    float: left;
+    background: #444444;
+}
+#userInfobox{
+    height: 250px;
+    width: 200px;
+    background: #444444;
+    text-align: center;
+}
+#userportrait{
+    height: 110px;
+    width: 120px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+#userportrait > img{
+    height: 110px;
+    width: 120px;
+}
+#username{
+	margin-top: 10px;
+    width: 200px;
+    height: 44px;
+    font-weight: bold;
+}
+#username > a{
+    color: #ffffff;
+    font-size: 20px;
+}
+#userInfobox > span{
+    font-size: 14px;
+    color: #959594;
+}
+#catalog{
+    padding-top: 20px;
+    background: #008573;
+    width: 200px;
+    height: 733px;
+}
+#catalog > ul > li{
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    border-bottom: 1px solid #219485;
+}
+#catalog > ul > li:hover{
+    background: #00a690;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+#catalog > ul > li > p{
+    line-height: 35px;
+    font-size: 14px;
+}
+#catalog > ul > li > p:hover{
+    cursor: pointer;
+}
+.now{
+    background: white;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.now:hover p{
+    color: white;
+}
+.other{
+    
+}
+.p_now{
+    color: #00a690;
+    font-weight: bold;
+}
+.p_other{
+    color: white;
+}
+#text{
+    float: left;
+    height: 1000px;
+    width: 780px;
+    background: #008573;
+}
+.text_visible{
+    height: 1000px;
+    width: 780px;
+    background: url(../img/text_background.png);
+    overflow: auto; 
+    overflow-x:hidden;
+}
+.text_hidden{
+    display: none;
+}
+.text_top{
+    background: white;
+    height: 45px;
+    width: 780px;
+    margin-top: 3px;
+}
+.text_nav{
+    background: #008573;
+    height: 70px;
+    width: 780px;
+}
+#alt_text{
+    height: 50px;
+    width: 700px;
+    line-height: 50px;
+    font-size: 20px;
+    border-bottom: 2px solid #008573;
+    margin-left: 10px;
+}
+#alt_text > p{
+    margin-left: 10px;
+}
+#alt{
+    height: 300px;
+    width: 700px;
+    padding: 100px 70px;
+}
+.alt_div{
+    height: 50px;
+    width: 700px;
+}
+.input_left{
+    height: 50px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+.input_right{
+    height: 50px;
+    width: 350px;
+    float: left;
+}
+.input_left > p{
+    float: right;
+}
+.input_right > input{
+    height: 34px;
+    width: 300px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: -1px -1px 1px #888888;
+    -moz-box-shadow: -1px -1px 1px #888888;
+    box-shadow: 1px -1px 1px #888888;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee));
+    background-image: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+    background-image:    -moz-linear-gradient(top, #ffffff, #eeeeee);
+    background-image:     -ms-linear-gradient(top, #ffffff, #eeeeee);
+    background-image:      -o-linear-gradient(top, #ffffff, #eeeeee);
+    background-image:         linear-gradient(top, #ffffff, #eeeeee);
+}
+.input_right > input:hover{
+    background: #eeeeee;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.alt_password{
+    height: 32px;
+    width: 250px;
+    border: 1px solid #c0c0c0;
+    background: #fff;
+    margin-top: 25px;
+    border-radius: 2px;
+    text-align: left;
+}
+#alt_sure{
+	margin: 20px 80px;
+	float: right;
+}
+#bottom{
+    height: 55px;
+    width: 1335px;
+    margin-top: 20px;
+    text-align: center;
+    background: white;
+}
+#bottom > span{
+    line-height: 55px;
+    color: gray;
+}
+#bottom_control{
+    margin-left: 15px;
+}
+
+#back{
+    position: absolute;
+    padding: 20px 0 0 20px;
+    height: 50px;
+    width: 50px;
+}
+#back > a > img{
+    height: 50px;
+    width: 50px;
+}

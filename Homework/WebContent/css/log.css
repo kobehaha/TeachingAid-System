@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+}
+body{
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #999999;
+    font-size: 18px;
+}
+a:hover{
+    color: #333333;
+}
+input{
+    height: 42px;
+    width: 290px;
+    font-size: 18px;
+    border-radius: 1px;
+}
+#background{
+    background: url(../img/log_background.png);
+    width: 1400px;
+    height: 580px;
+}
+#content{
+    width: 700px;
+    height: 415px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+#welcome{
+    height: 50px;
+    width: 335px;
+    background: #008573;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 0 10px 5px;
+    border-radius: 1px;
+    opacity:0.9;
+    -moz-opacity:0.9;
+    filter:alpha(opacity=90);
+}
+#welcome > p{
+    font-size: 18px;
+    color: white;
+}
+#log_in{
+    background: white;
+    height: 375px;
+    width: 340px;
+    border: 1px solid #a0b1c4;
+    border-radius: 5px;
+    opacity:0.9;
+    -moz-opacity:0.9;
+    filter:alpha(opacity=90);
+}
+#choose{
+    height: 55px;
+    width: 340px;
+    background: #eff4fa;
+    border-bottom: 1px solid #c0cdd9;
+    text-align: center;
+}
+#choose > span{
+    line-height: 55px;
+    margin: 0 20px 0 20px;
+}
+.now{
+    color: #333333;
+    text-decoration: underline;
+}
+#input{
+    height: 200px;
+    width: 340px;
+}
+#input1{
+    margin: 42px 0 0 25px;
+}
+#input2{
+    margin: 15px 0 0 25px;
+}
+.num{
+    margin: 42px 0 0 25px;
+}
+.password{
+    margin: 15px 0 0 25px;
+}
+.btnSub{
+    height: 42px;
+    width: 290px;
+    background: #5a98de;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: center;
+}
+#log_bottom{
+    height: 42px;
+    width: 290px;
+    background: #5a98de;
+    border-radius: 3px;
+    margin-left: 25px;
+    text-align: center;
+}
+#log_bottom:hover{
+    background: #6aa2e0;
+    cursor: pointer;
+}
+#log_bottom > a{
+    color: white;
+    line-height: 42px;
+    font-size: 20px;
+}
+
+#bottom{
+    height: 40px;
+    background: #eff4fa;
+    border-top: 1px solid #d6dfea;
+    text-align: center;
+}
+#bottom > span{
+    line-height: 40px;
+    color: #1d5494;
+}
+#bottom_control{
+    margin-left: 15px;
+}
